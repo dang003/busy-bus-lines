@@ -1,10 +1,11 @@
 body {
-  background-color: #0B2535;
+  background-color: #8a8a8a;
   color: #fff;
   font-size: 10px;
   width: 360px;
   height: 100%;
   font-family: roboto, sans-serif;
+  margin: 0 auto;
 }
 
 *, *::before, *::after {
@@ -32,6 +33,7 @@ h4 {
 }
 
 .container {
+  background-color: #0B2535;
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -59,14 +61,16 @@ padding-top: 5%;
 }
 
 .map {
-  width: 100%;
-  height: 100%;
+  background-image: url("../images/map.png");
+  width: 360px;
+  height: 250px;
+  margin-bottom: 1px;
 }
 
-.bus-stop {
-  position: absolute;
+ .bus-stop {
+  position: relative;
   left: 75px;
-  top: 80px;
+  top: 20px;
 }
 
 .toggle {
@@ -124,4 +128,9 @@ padding-top: 5%;
 .alert {
   position: absolute;
   padding: 17px 0px 0px 15px;
+}
+
+.disable {
+  background-color: #e5e5e5;
+  color: #666;
 }
